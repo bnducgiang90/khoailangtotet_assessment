@@ -1,0 +1,16 @@
+2020-04-06 14:39:48,260 [INFO] databases.crmsdb: ====================================
+2020-04-06 14:39:48,262 [INFO] databases.crmsdb: ====================================
+2020-04-06 14:39:48,265 [INFO] databases.crmsdb: Database connected
+2020-04-06 14:39:48,265 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_PARAMS_PLXEPHANG
+2020-04-06 14:39:48,983 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_PARAMS_PLXEPHANG
+2020-04-06 14:39:48,984 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin SP_XHDN_TH_GetID
+2020-04-06 14:39:49,104 [INFO] databases.crmsdb: Kết thúc - lấy thông tin SP_XHDN_TH_GetID
+2020-04-06 14:39:49,104 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin SP_PhienBan_GetNextID
+2020-04-06 14:39:49,253 [INFO] databases.crmsdb: Kết thúc - lấy thông tin SP_PhienBan_GetNextID
+2020-04-06 14:39:49,254 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin SP_LyDoXH_GetID
+2020-04-06 14:39:49,385 [INFO] databases.crmsdb: Kết thúc - lấy thông tin SP_LyDoXH_GetID
+2020-04-06 14:39:49,385 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin các bảng params HSVP
+2020-04-06 14:39:52,429 [INFO] databases.crmsdb: kết thúc - lấy thông tin các bảng params HSVP
+2020-04-06 14:39:52,429 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINVIPHAM
+2020-04-06 14:39:55,502 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINVIPHAM
+2020-04-06 14:39:55,507 [INFO] databases.crmsdb: ------Kết thúc đánh giá RANK ---------

@@ -1,0 +1,374 @@
+2020-04-05 17:33:30,919 [INFO] databases.crmsdb: ====================================
+2020-04-05 17:33:30,920 [INFO] databases.crmsdb: ====================================
+2020-04-05 17:33:30,920 [INFO] databases.crmsdb: Database connected
+2020-04-05 17:33:30,920 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_PARAMS_PLXEPHANG
+2020-04-05 17:33:31,947 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_PARAMS_PLXEPHANG
+2020-04-05 17:33:31,947 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin SP_XHDN_TH_GetID
+2020-04-05 17:33:33,904 [INFO] databases.crmsdb: Kết thúc - lấy thông tin SP_XHDN_TH_GetID
+2020-04-05 17:33:33,905 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin SP_PhienBan_GetNextID
+2020-04-05 17:33:34,100 [INFO] databases.crmsdb: Kết thúc - lấy thông tin SP_PhienBan_GetNextID
+2020-04-05 17:33:34,100 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin SP_LyDoXH_GetID
+2020-04-05 17:33:38,589 [INFO] databases.crmsdb: Kết thúc - lấy thông tin SP_LyDoXH_GetID
+2020-04-05 17:33:38,590 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin các bảng params HSVP
+2020-04-05 17:33:56,528 [INFO] databases.crmsdb: kết thúc - lấy thông tin các bảng params HSVP
+2020-04-05 17:33:56,528 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINVIPHAM
+2020-04-05 17:34:19,127 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINVIPHAM
+2020-04-05 17:34:19,130 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSVP ---------
+2020-04-05 17:34:19,130 [INFO] databases.crmsdb: ========Bắt đầu group tiêu chí HSVP========
+2020-04-05 17:34:19,227 [INFO] databases.crmsdb: ========Kết thúc group tiêu chí HSVP========
+2020-04-05 17:34:19,245 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSVP ---------
+2020-04-05 17:36:32,679 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin các bảng params HSDN
+2020-04-05 17:36:36,213 [INFO] databases.crmsdb: kết thúc - lấy thông tin các bảng params HSDN
+2020-04-05 17:36:36,214 [INFO] datamodels.crms.qlt_hsvp_xhdn: Từ rowID: 2095306 - Đến rowID: 2206985 - Số lượng row mỗi process : 5000
+2020-04-05 17:36:36,214 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2095306 - đến rowID : 2100306
+2020-04-05 17:36:36,215 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:36:39,985 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:36:39,985 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:36:55,049 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:36:55,050 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:37:17,331 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:37:17,331 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:37:17,335 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:37:17,707 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:37:17,709 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:37:17,709 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:37:18,166 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:37:30,377 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:37:30,402 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:37:30,455 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2100307 - đến rowID : 2105307
+2020-04-05 17:37:30,456 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:37:33,134 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:37:33,137 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:37:47,206 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:37:47,207 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:38:08,620 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:38:08,620 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:38:08,627 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:38:09,967 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:38:09,969 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:38:09,970 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:38:10,163 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:38:25,003 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:38:25,035 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:38:25,075 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2105308 - đến rowID : 2110308
+2020-04-05 17:38:25,075 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:38:30,523 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:38:30,525 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:38:43,240 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:38:43,240 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:39:03,669 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:39:03,669 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:39:03,673 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:39:04,442 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:39:04,446 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:39:04,447 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:39:04,678 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:39:17,358 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:39:17,384 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:39:17,422 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2110309 - đến rowID : 2115309
+2020-04-05 17:39:17,423 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:39:20,811 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:39:20,815 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:39:33,816 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:39:33,816 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:39:54,702 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:39:54,702 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:39:54,706 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:39:55,101 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:39:55,107 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:39:55,108 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:39:55,342 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:40:08,668 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:40:08,696 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:40:08,737 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2115310 - đến rowID : 2120310
+2020-04-05 17:40:08,737 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:40:12,258 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:40:12,260 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:40:24,943 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:40:24,943 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:40:45,346 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:40:45,347 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:40:45,355 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:40:46,260 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:40:46,265 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:40:46,265 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:40:46,474 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:40:58,972 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:40:58,997 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:40:59,034 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2120311 - đến rowID : 2125311
+2020-04-05 17:40:59,034 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:41:03,529 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:41:03,531 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:41:17,433 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:41:17,433 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:41:37,116 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:41:37,116 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:41:37,120 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:41:37,546 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:41:37,551 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:41:37,551 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:41:37,766 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:41:50,139 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:41:50,184 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:41:50,226 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2125312 - đến rowID : 2130312
+2020-04-05 17:41:50,226 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:41:53,303 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:41:53,305 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:42:07,126 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:42:07,126 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:42:27,095 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:42:27,095 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:42:27,099 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:42:27,559 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:42:27,563 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:42:27,564 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:42:27,785 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:42:40,619 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:42:40,638 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:42:40,706 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2130313 - đến rowID : 2135313
+2020-04-05 17:42:40,706 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:42:45,169 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:42:45,171 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:42:57,864 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:42:57,865 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:43:17,059 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:43:17,059 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:43:17,063 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:43:17,828 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:43:17,833 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:43:17,833 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:43:18,066 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:43:28,328 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:43:28,355 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:43:28,401 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2135314 - đến rowID : 2140314
+2020-04-05 17:43:28,401 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:43:29,549 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:43:29,552 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:43:42,478 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:43:42,478 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:44:04,474 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:44:04,474 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:44:04,478 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:44:04,891 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:44:04,894 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:44:04,894 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:44:05,101 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:44:18,263 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:44:18,287 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:44:18,334 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2140315 - đến rowID : 2145315
+2020-04-05 17:44:18,334 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:44:19,408 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:44:19,411 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:44:33,638 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:44:33,638 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:44:53,302 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:44:53,302 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:44:53,306 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:44:54,577 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:44:54,582 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:44:54,582 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:44:54,838 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:45:05,879 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:45:05,899 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:45:05,937 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2145316 - đến rowID : 2150316
+2020-04-05 17:45:05,938 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:45:09,976 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:45:09,978 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:45:24,228 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:45:24,229 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:45:45,538 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:45:45,539 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:45:45,543 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:45:45,942 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:45:45,944 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:45:45,944 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:45:46,127 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:45:57,242 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:45:57,265 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:45:57,300 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2150317 - đến rowID : 2155317
+2020-04-05 17:45:57,300 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:46:01,298 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:46:01,301 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:46:14,828 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:46:14,829 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:46:34,591 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:46:34,591 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:46:34,595 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:46:35,027 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:46:35,032 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:46:35,033 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:46:35,239 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:46:47,410 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:46:47,430 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:46:47,466 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2155318 - đến rowID : 2160318
+2020-04-05 17:46:47,466 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:46:52,123 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:46:52,128 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:47:07,683 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:47:07,683 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:47:27,744 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:47:27,744 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:47:27,748 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:47:28,166 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:47:28,169 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:47:28,170 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:47:28,374 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:47:38,531 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:47:38,572 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:47:38,633 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2160319 - đến rowID : 2165319
+2020-04-05 17:47:38,634 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:47:42,159 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:47:42,161 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:47:55,044 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:47:55,044 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:48:14,897 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:48:14,897 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:48:14,901 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:48:15,304 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:48:15,307 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:48:15,308 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:48:15,531 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:48:29,249 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:48:29,272 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:48:29,308 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2165320 - đến rowID : 2170320
+2020-04-05 17:48:29,308 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:48:31,730 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:48:31,732 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:48:44,687 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:48:44,687 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:49:05,472 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:49:05,472 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:49:05,477 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:49:05,859 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:49:05,864 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:49:05,865 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:49:06,110 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:49:17,331 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:49:17,360 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:49:17,399 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2170321 - đến rowID : 2175321
+2020-04-05 17:49:17,399 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:49:21,153 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:49:21,155 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:49:34,736 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:49:34,737 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:49:54,450 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:49:54,451 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:49:54,455 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:49:55,415 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:49:55,418 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:49:55,418 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:49:55,615 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:50:09,002 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:50:09,021 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:50:09,055 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2175322 - đến rowID : 2180322
+2020-04-05 17:50:09,056 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:50:13,193 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:50:13,195 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:50:26,861 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:50:26,861 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:50:47,590 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:50:47,591 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:50:47,595 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:50:48,072 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:50:48,077 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:50:48,077 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:50:48,464 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:50:59,788 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:50:59,816 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:50:59,850 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2180323 - đến rowID : 2185323
+2020-04-05 17:50:59,850 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:51:02,476 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:51:02,478 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:51:15,411 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:51:15,412 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:51:34,737 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:51:34,737 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:51:34,741 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:51:35,112 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:51:35,117 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:51:35,118 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:51:35,341 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:51:48,751 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:51:48,775 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:51:48,813 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2185324 - đến rowID : 2190324
+2020-04-05 17:51:48,814 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:51:49,920 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:51:49,922 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:52:02,693 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:52:02,693 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:52:21,741 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:52:21,742 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:52:21,746 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:52:22,747 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:52:22,751 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:52:22,752 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:52:22,994 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:52:38,348 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:52:38,374 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:52:38,411 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2190325 - đến rowID : 2195325
+2020-04-05 17:52:38,412 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:52:41,338 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:52:41,341 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:52:54,073 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:52:54,073 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:53:14,574 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:53:14,574 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:53:14,578 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:53:14,979 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:53:14,985 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:53:14,986 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:53:15,206 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:53:28,256 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:53:28,284 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:53:28,320 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2195326 - đến rowID : 2200326
+2020-04-05 17:53:28,320 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:53:29,455 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:53:29,457 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:53:41,938 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:53:41,938 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:54:01,166 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:54:01,166 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:54:01,170 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:54:01,734 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:54:01,739 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:54:01,739 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:54:01,944 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:54:13,939 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:54:13,960 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:54:14,003 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2200327 - đến rowID : 2205327
+2020-04-05 17:54:14,003 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:54:18,671 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:54:18,673 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:54:32,053 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:54:32,053 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:54:51,212 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:54:51,212 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:54:51,216 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:54:51,649 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:54:51,653 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:54:51,653 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:54:51,847 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:55:05,013 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:55:05,033 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 380076---------
+2020-04-05 17:55:05,067 [INFO] datamodels.crms.qlt_hsvp_xhdn: Lấy thông tin HSDN và tính điểm từ rowID: 2205328 - đến rowID : 2210328
+2020-04-05 17:55:05,068 [INFO] databases.crmsdb: Bắt đầu - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:55:06,112 [INFO] databases.crmsdb: kết thúc - lấy thông tin QLT_THONGTINDOANHNGHIEP
+2020-04-05 17:55:06,114 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu đánh giá RANK HSDN ---------
+2020-04-05 17:55:10,356 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK HSDN ---------
+2020-04-05 17:55:10,356 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:55:16,746 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc xếp cộng điểm HSDN + HSVP  + xếp RANK---------
+2020-04-05 17:55:16,746 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:55:16,748 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_TMP_XEPHANGDN_20 BATCH_SIZE: 50000
+2020-04-05 17:55:17,755 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:55:17,757 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả xếp RANK vào bảng Trung gian---------
+2020-04-05 17:55:17,757 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi lý do Điểm tiêu chí xếp RANK HSDN---------
+2020-04-05 17:55:17,844 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20 BATCH_SIZE: 50000
+2020-04-05 17:55:24,563 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_LYDOXEPHANG_HSDN_DIEMTC_20
+2020-04-05 17:55:24,569 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi lý do Điểm tiêu chí xếp RANK HSDN số lượng bản ghi: 126008---------
+2020-04-05 17:55:24,582 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Bắt đầu ghi kết quả tính điểm và xếp hạng doanh nghiệp ---------
+2020-04-05 17:55:24,583 [INFO] databases.crmsdb: Bắt đầu - Insert thông tin QLT_XEPHANGDN_20 
+2020-04-05 17:55:40,459 [INFO] databases.crmsdb: kết thúc - Insert thông tin QLT_XEPHANGDN_20
+2020-04-05 17:55:40,459 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc ghi kết quả tính điểm và xếp hạng doanh nghiệp ---------
+2020-04-05 17:55:40,460 [INFO] databases.crmsdb: Bắt đầu - Update thông tin XHDN_TH_Update
+2020-04-05 17:55:40,665 [INFO] databases.crmsdb: Kết thúc - Update thông tin XHDN_TH_Update
+2020-04-05 17:55:40,666 [INFO] datamodels.crms.qlt_hsvp_xhdn: ------Kết thúc đánh giá RANK ---------
