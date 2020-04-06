@@ -21,6 +21,7 @@ def main():
     _process_rank.qlt_xhdn()
 
     print("{} done!".format(datetime.datetime.now()))
+    print("Done !")
 
     # srvcrms = crmsservice()
     # hsdn_params: {} = srvcrms.get_hsdn_params()
