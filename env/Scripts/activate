@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="E:\10.Python\khoailangtotet\env"
+VIRTUAL_ENV="E:\10.Python\git_svn\khoailangtotet_assessment\env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
